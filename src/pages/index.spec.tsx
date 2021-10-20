@@ -21,5 +21,6 @@ describe('index', () => {
     });
 
     expect(await pageHeaderTestkit.exists()).toBe(true);
+    expect(await pageHeaderTestkit.titleText()).toBe('Comments Application');
   });
 });
