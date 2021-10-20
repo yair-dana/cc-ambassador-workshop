@@ -1,0 +1,20 @@
+{
+  "moduleId": "CC_AMBASSADOR_WORKSHOP",
+  "appDefinitionId": "9c49fc5a-2813-41a2-87f8-70b170ee8853",
+  "isCoreService": true,
+  "routeNamespace": "cc-ambassador-workshop",
+  "translations": {
+    "enabled": true
+  },
+  "sentry": {
+    "DSN": "https://be67ea6a0ac744bb87bb34776728d480@sentry.wixpress.com/2246",
+    "id": "be67ea6a0ac744bb87bb34776728d480",
+    "projectName": "cc-ambassador-workshop",
+    "teamName": "crash-course",
+    "errorMonitor": true
+  },
+  "experiments": {
+    "centralized": true
+  },
+  "enabledByExperiments": ["specs.infra.yoshi-bm.ChangeMe"]
+}

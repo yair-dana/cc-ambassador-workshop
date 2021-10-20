@@ -1,0 +1,14 @@
+[
+  {
+    "appName": "cc-ambassador-workshop.pages.index",
+    "notifications": {
+      "slack_channels": [
+        "cc-ambassador-workshop-urgent"
+      ]
+    },
+    "deploy_annotations": [
+      "cc-ambassador-workshop"
+    ],
+    "ignore_first_request_roundtrip": true
+  }
+]
